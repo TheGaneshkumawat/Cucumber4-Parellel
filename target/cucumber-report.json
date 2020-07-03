@@ -1,0 +1,231 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-03T16:10:58.650Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4063000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "util.GlobalContext.init()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Testing Cucumber 4.0 Parallel Execution",
+        "description": "",
+        "id": "testing-cucumber-4.0;testing-cucumber-4.0-parallel-execution",
+        "after": [
+          {
+            "result": {
+              "duration": 598000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "util.GlobalContext.destruct()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5504000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on login page",
+            "match": {
+              "location": "steps.firstClass.user_is_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2935000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of the page is Google",
+            "match": {
+              "location": "steps.firstClass.title_of_the_page_is_Google()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1001000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user closes the browser",
+            "match": {
+              "location": "steps.firstClass.user_closes_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-03T16:10:58.650Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4063000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "util.GlobalContext.init()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Testing Cucumber 4.0 Parallel Execution 2",
+        "description": "",
+        "id": "testing-cucumber-4.0;testing-cucumber-4.0-parallel-execution-2",
+        "after": [
+          {
+            "result": {
+              "duration": 645000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "util.GlobalContext.destruct()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2446000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is already on login page 2",
+            "match": {
+              "location": "steps.firstClass.user_is_already_on_login_page_2()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "title of the page is Google 2",
+            "match": {
+              "location": "steps.firstClass.title_of_the_page_is_Google_2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user closes the browser 2",
+            "match": {
+              "location": "steps.firstClass.user_closes_the_browser_2()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing Cucumber 4.0",
+    "description": "",
+    "id": "testing-cucumber-4.0",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/first.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-03T16:10:58.650Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4063000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "util.GlobalContext.init()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Testing Cucumber 4.0 Parallel Execution 3",
+        "description": "",
+        "id": "testing-cucumber-4.0-parallel;testing-cucumber-4.0-parallel-execution-3",
+        "after": [
+          {
+            "result": {
+              "duration": 4623000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "util.GlobalContext.destruct()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1349000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on login page 3",
+            "match": {
+              "location": "steps.secondClass.user_is_already_on_login_page_3()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of the page is Google 3",
+            "match": {
+              "location": "steps.secondClass.title_of_the_page_is_Google_3()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1007000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user closes the browser 3",
+            "match": {
+              "location": "steps.secondClass.user_closes_the_browser_3()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing Cucumber 4.0 parallel",
+    "description": "",
+    "id": "testing-cucumber-4.0-parallel",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/second.feature",
+    "tags": []
+  }
+]

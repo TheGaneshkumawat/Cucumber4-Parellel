@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="POC.cucumber_parallel.AppTest" duration-ms="8" started-at="2020-07-03T20:10:23 IST" finished-at="2020-07-03T20:10:23 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="8" started-at="2020-07-03T20:10:23 IST" finished-at="2020-07-03T20:10:23 IST">
+    </test> <!-- Command line test -->
+  </suite> <!-- POC.cucumber_parallel.AppTest -->
+</testng-results>
